@@ -1,0 +1,83 @@
+0-1.ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+bandit1@bandit:~$ cat <- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit2@bandit:~$ cat -- "--spaces in this filename--" MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+bandit3@bandit:~/inhere$ cat ...Hiding-From-You 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+bandit4@bandit:~/inhere$ cat -- -file07 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw 
+bandit5@bandit:~/inhere$ find . -type f -size 1033c ! -executable (quite a tricky level...)
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+bandit6@bandit:~$ find / size f 33c -user bandit7 -group bandit6 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+bandit7@bandit:~$ grep 'millionth' data.txt
+millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+bandit8@bandit:~$ sort data.txt | uniq -u
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+bandit9@bandit:~$ strings data.txt ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+bandit10@bandit:~$ man base64
+bandit10@bandit:~$ base64 -d data.txt
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+bandit12@bandit:/tmp/tmp.v1DHoGViBI$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/tmp.v1DHoGViBI$ gunzip data8.gz
+bandit12@bandit:/tmp/tmp.v1DHoGViBI$ ls
+data5.tar  data6.tar  data8  data.txt  file1.tar
+bandit12@bandit:/tmp/tmp.v1DHoGViBI$ file data8
+data8: ASCII text
+bandit12@bandit:/tmp/tmp.v1DHoGViBI$ cat data8
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+
+ssh -i b14key  bandit14@bandit.labs.overthewire.org -p 2220
+
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+bandit14@bandit:~$ nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+Correct!
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+openssl s_client -connect localhost:30001
+Correct!
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+ssh -i private.key bandit17@bandit.labs.overthewire.org -p 2220
+private.key in local machine was password that got u to lvl17
+
+bandit17@bandit:~$ diff passwords.old passwords.new
+42c42
+< pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
+---
+> x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+Hashim% ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme" (cat readme quickly grabs pass before kicked out, then paste pwrd from lvl 17 to get lvl18 pwrd)
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+bandit20@bandit:~$ nc -l localhost 1024
+(2nd host) bandit20@bandit:~$ ./suconnect 1024
+(lvl 20 password needed to access lvl 21 password) - 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+(lvl 21 password) EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+bandit21@bandit:~$ cd /etc/cron.d/
+bandit21@bandit:/etc/cron.d$ ls
+behemoth4_cleanup  cronjob_bandit22  cronjob_bandit24  leviathan5_cleanup    otw-tmp-dir
+clean_tmp          cronjob_bandit23  e2scrub_all       manpage3_resetpw_job  sysstat
+bandit21@bandit:/etc/cron.d$ cat cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+bandit21@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+bandit21@bandit:/etc/cron.d$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+bandit22@bandit:/etc/cron.d$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+bandit22@bandit:/etc/cron.d$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
